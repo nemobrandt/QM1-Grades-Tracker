@@ -12,7 +12,7 @@
 =COUNTIF(<range_a>, "=TRUE")+COUNTIF(<range_b>, "=TRUE")
 ```
 
-- To get the average of the best 18/20 or best 9/12 or best 10/12 I used:
+- To get the average of the best Quizzes I used: 
 ```
 =AVERAGE(LARGE(<range>,{1,2,3,4,5,6,7,8,9,10}))
 ```
